@@ -13,8 +13,14 @@
   And you put xdescribe instead of describe if you want to suspend running the unit tests.  
 */
 
-function insertionSort(nums) {
-  // code goes here
+function insertionSort(nums){
+  for (let i = 1; i < nums.length; i++){
+    for (let j = i-1; nums[j] > nums[i] && j > o; j--){
+          nums [j+1] = nums [j]
+    }
+    nums[j+1] = nums[i]
+  }
+  return nums;
 }
 
 // unit tests
